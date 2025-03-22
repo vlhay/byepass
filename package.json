@@ -10,8 +10,7 @@
       "next": "^14.0.0",
       "react": "^18.0.0",
       "react-dom": "^18.0.0",
-      "puppeteer-core": "^21.3.0",
-      "chrome-aws-lambda": "^10.1.0"
+      "puppeteer": "^21.3.0"
     }
   }
   
