@@ -4,12 +4,11 @@
     "private": true,
     "main": "src/index.js",
     "scripts": {
-      "postinstall": "npx puppeteer browsers install chrome",
       "start": "node src/index.js"
     },
     "dependencies": {
       "express": "latest",
-      "puppeteer": "latest",
+      "puppeteer-core": "latest",
       "cors": "latest"
     }
   }

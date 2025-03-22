@@ -1,9 +1,10 @@
-import puppeteer from "puppeteer";
+import puppeteer from "puppeteer-core";
 
 export default async function bypass(url) {
   const browser = await puppeteer.launch({
-    headless: "new",
-    args: ["--no-sandbox", "--disable-setuid-sandbox"]
+    executablePath: "/usr/bin/chromium", // Đường dẫn Chromium của Render
+    args: ["--no-sandbox", "--disable-setuid-sandbox"],
+    headless: "new"
   });
 
   const page = await browser.newPage();
