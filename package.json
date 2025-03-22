@@ -2,16 +2,14 @@
     "name": "cloudflare-bypass",
     "version": "1.0.0",
     "private": true,
+    "main": "src/index.js",
     "scripts": {
-      "dev": "next dev",
-      "build": "next build",
-      "start": "next start"
+      "start": "node src/index.js"
     },
     "dependencies": {
-      "next": "latest",
-      "react": "latest",
-      "react-dom": "latest",
-      "cloudscraper": "latest"
+      "express": "latest",
+      "puppeteer": "latest",
+      "cors": "latest"
     }
   }
   
